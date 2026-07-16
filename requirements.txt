@@ -4,12 +4,7 @@ uvicorn[standard]
 python-jose[cryptography]
 passlib[bcrypt]
 bcrypt
-
-python-multipart
-email-validator
-
-pydantic
-pydantic-settings
+python-jose
 
 mysql-connector-python
 
@@ -21,10 +16,3 @@ pandas
 scikit-learn
 nltk
 joblib
-
-pytest
-httpx
-
-black
-isort
-flake8
